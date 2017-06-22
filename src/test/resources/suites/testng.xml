@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Main page" verbose="1" data-provider-thread-count="4">
+
+    <test name="Main page find form tests" >
+        <classes>
+            <class name="com.kreditech.x1.ui.navigation.MainMenu">
+            </class>
+        </classes>
+    </test>
+</suite>
